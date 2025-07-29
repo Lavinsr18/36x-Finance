@@ -1,0 +1,96 @@
+/* Dark Theme & Styling */
+
+.mainc{
+  background: url("../assets/homebc.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.desc-page {
+    color: #f0f6fc;
+    min-height: 100vh;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+  }
+  
+  .desc-pge h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #58a6ff;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .calc-card {
+    background-color: #000000;
+    padding: 25px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #30363d;
+    box-shadow: 0 0 10px rgba(88, 166, 255, 0.05);
+  }
+  
+  .calc-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 50px rgba(88, 166, 255, 0.3);
+  }
+  
+  .calc-card h3 {
+    color: #58a6ff;
+    font-size: 1.2rem;
+    margin: 15px 0 10px;
+  }
+  
+  .calc-card p {
+    font-size: 0.95rem;
+    color: #c9d1d9;
+    margin-bottom: 20px;
+  }
+  
+  .calc-card button {
+    background: #238636;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .calc-card button:hover {
+    background: #2ea043;
+  }
+  
+  .calc-icon {
+    font-size: 40px;
+    color: #f0f6fc;
+    animation: pulse 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 0.8;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+
+  .h11{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #f0f6fc;
+  }
+  

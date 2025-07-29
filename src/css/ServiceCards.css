@@ -1,0 +1,79 @@
+.services-section {
+    padding: 60px 80px;
+    background-color: #111111;
+   
+    color: #00d4ff;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    border: 2px solid #00d4ff;
+    color: #00d4ff;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .service-card {
+    background: rgb(8, 8, 8);
+    border-radius: 12px;
+    padding: 30px 20px;
+    flex: 1;
+    min-width: 250px;
+    max-width: 32%;
+    box-shadow: 0 4px 12px rgb(68, 65, 65);
+    transition: all 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(241, 236, 236, 0.897);
+  }
+  
+  .service-card .icon {
+    font-size: 40px;
+    margin-bottom: 15px;
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card p {
+    font-size: 16px;
+    color: #f8eeee;
+  }
+  
+  .primary-btn,
+  .secondary-btn {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .primary-btn {
+    background-color: #00d4ff;
+    color: #001f33;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    border: 2px solid #00d4ff;
+    color: #00d4ff;
+  }
+
+  .secondary-btn :hover{  
+    background-color: transparent;
+    border: 2px solid #00d4ff;
+    color: #00d4ff;
+  }
